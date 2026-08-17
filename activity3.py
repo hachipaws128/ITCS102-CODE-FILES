@@ -16,3 +16,13 @@ isRich = False
 
 print(tell)
 print(age, "years old and", family)
+print("I can run over", speed, "when I'm in peak condition")
+
+grades = 89
+general = 91
+
+if grades > general:
+
+   print(grades)
+else
+   print (general)

@@ -1,0 +1,18 @@
+#Hello this  is activity 3 BSIT 1B
+
+#int
+age = 19
+family = 7
+
+#float
+speed = 24
+jump = 16
+
+#string
+tell = "How are you, Im doing fine and then I said Thats relief to know"
+
+#boolean
+isRich = False
+
+print(tell)
+print(age, "years old and", family)

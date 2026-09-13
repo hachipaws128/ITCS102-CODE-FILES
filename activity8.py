@@ -2,7 +2,7 @@
 
 loves = ""
 
-a1 = input("What are your hobbies? (One at a time) ")
+a1 = input("What are your loves? (One at a time) ")
 loves += a1 + ", "
 
 a2 = input("What else? ")

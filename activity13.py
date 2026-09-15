@@ -31,6 +31,8 @@ else:
     print("============...Rejected...============ \nRejected: Failed to meet the requirements. \nRequirements: Age between 21 and 75, and must be employed. \n\nPlease try again. \n=======================================")
     exit()
 
+#Details
+
 print("\nYou have been approved for a loan with the following details: ")
 
 print ("\n============...Details...============")

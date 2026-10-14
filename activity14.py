@@ -1,4 +1,6 @@
 #looping in python
+#you can put anything name in "tol"
+
 
 for tol in range(10):
     print(">>______<<")

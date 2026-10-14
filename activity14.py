@@ -1,4 +1,6 @@
 #looping in python
 
 for tol in range(10):
-    print(tol,"-Hiii")
+    print(">>______<<")
+    print(tol)
+    print("Hiii")

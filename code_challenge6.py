@@ -1,9 +1,9 @@
-#code challenge 6 THE "X"
+size = int(input("Input the Size -->> "))
 
-for x in range(0, 5):
-    for y in range(0, 5):
-        if x == y or x+y == 4:
-            print("*", end="")
+for x in range(0,5):
+    for y in range(0,5):
+        if x + y == size-1 or x==y :
+          print("*",end = " ")
         else:
-            print(" ", end="")
+           print(" ", end= " ")
     print()

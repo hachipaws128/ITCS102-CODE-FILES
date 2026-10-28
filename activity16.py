@@ -9,6 +9,3 @@ for a in range(1,11):
     for b in range(1, x + 1): #this +1 only added
       print(b,end = "\n")
     print("-",a) #for new line
-
-
-for a1 in ra

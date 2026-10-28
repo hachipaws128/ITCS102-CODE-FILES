@@ -1,9 +1,8 @@
 #Code challenge 7 Floyd's Triangle
 
-add = 1
-
-for x in range(0,5,1):
-    for y in range(-1,x):
-        print(add, end= " ")
-        add = add + 1
+digit = 1 
+for x in range(5):
+    for y in range(x + 1):
+        print(digit,end=" ")
+        digit = digit + 1
     print()

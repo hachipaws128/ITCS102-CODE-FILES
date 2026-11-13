@@ -8,7 +8,7 @@ interest = remainingloan * rate
 monthlypayment = interest + principal
 
 
-print(f"TASK #1 \n \n Enter the loan amount: ${loanamount} \n Enter the loan period in years: {loanyrs}")
+print(f"\n Enter the loan amount: ${loanamount} \n Enter the loan period in years: {loanyrs}")
 print("\n Payment Schedule \n Month \t | \t Monthly Payment \t | \t Interest \t | \t Principal \t |\t Remaining Loan")
 print("----------------------------------------------------------------------------------------------------------------")
 
@@ -34,8 +34,6 @@ for x in range(0, 7):
             print(" ", end="")
     print()
 
-
-#TARGET 3
 print("\n")
 
 for x in range(0, 5):

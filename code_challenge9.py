@@ -34,6 +34,8 @@ for x in range(0, 7):
             print(" ", end="")
     print()
 
+
+#TARGET 3
 print("\n")
 
 for x in range(0, 5):

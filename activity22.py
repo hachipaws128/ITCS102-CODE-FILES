@@ -1,30 +1,61 @@
 #list and dictionary
-#JJBA list
-jotaro = ["Time Stop"]
+jotaro_a = ["Time Stop", "Barrage", "Enhanced Senses", "Star Finger"]
+kakyoin_a = ["Emerald Splash", "Marionette Control", "Coiled Body & Unraveling"]
+joseph_a = ["Sun-like energy", "Thorny vines", "Divination"]
+dio_a = ["The World", "Hermit Purple-like Vine Stand", "Space Ripper Stingy Eyes"]
 
-kakyoin = ["Emerald Splash"]
-joseph = ["Hermit Purple"]
-dio = ["Time Stop", "Knife throw"]
-bucciarati = ["Sticky Finger"]
+asta_w = ["Demon-Slayer Sword", "Demon-Dweller Sword", "Demon-Destroyer Sword", "Devil Union"]
+yuno_p = ["Wind Magic & Creation Magic", "Star Magic", "Spirit Magic & Spirit Dive"]
+yami_p = [""]
+noelle_p = [""]
 
-#Black Clover List
-asta = ["Union"]
-yuno = ["Dive form"]
-yami = ["Dimensional Slash"]
-noel = ["Valkyrie"]
+goldship_s = [""]
+sw_s = [""]
+tamamo_s = [""]
+agnest_s = [""]
+agnesd_s = [""]
 
-#Umamusume 
+rem_p = [""]
+ram_p = [""]
+subaru_p = [""]
+meili_p = [""]
+emilia_p = [""]
 
 
-jjba = ["Jotaro","Kakyoin","Joseph","Dio","Bucciarati"]
-black_clover = ["Asta","Yuno","Yami","Noel"]
-umamusume = ["GoldShip","Special Week","Tamamo","Agnes Tachyon","Agnes Digital"]
 
-fav = [jjba]
-horse = [umamusume]
-fantasy = [black_clover]
+jotaro = jotaro_a
+kakyoin = kakyoin_a
+joseph = joseph_a
+dio = dio_a
 
-anime = {"JJBA":fav, "Black Clover":horse, "Umamusume":horse}
+asta = asta_w
+yuno = yuno_p
+yami = yami_p
+noelle = noelle_p
+
+goldship = goldship_s
+specialw = sw_s
+tamamo = tamamo_s
+agnest = agnest_s
+agnesd = agnesd_s
+
+rem = rem_p
+ram = ram_p
+subaru = subaru_p
+meili = meili_p
+emilia = emilia_p
+
+
+
+jjba = {"Jotaro":jotaro,"Kakyoin":kakyoin,"Joseph":joseph,"Dio":dio}
+black_clover = {"Asta","Yuno","Yami","Noelle"}
+umamusume = {"GoldShip","Special Week","Tamamo","Agnes Tachyon","Agnes Digital"}
+zero = {"Rem":rem,"Ram":ram,"Subaru":subaru,"Meili":meili,"Emilia":emilia}
+
+fav = {"Jojo's Bizzare Adventure":jjba, "Umamusume":umamusume}
+fantasy = {"Black Clover":black_clover, "Re:Zero":zero}
+
+anime = {"JJBA":fav, "Black Clover":fantasy, "Umamusume":fav, "Re:Zero":fantasy}
 
 print(anime["JJBA"])
 print(anime["JJBA"][0][-3])
